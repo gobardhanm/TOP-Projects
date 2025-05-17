@@ -12,28 +12,97 @@
     color: #f9faf8;
 }
 
-.firstSech1{
+.fs-bottom-h1{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
-.hlink, .firstSecp{
+.hlink, .fs-bottom-p{
     font-size: 18px;
     color: #e5e7eb;
+    padding: 10px;
 }
 
-.signup-btn{
-    background-color: #3882f6;
-    border: none;
-    padding: 10px;
-    width: 90px;
-    border-radius: 8px;
-    color: #f9faf8;
-    font-weight: bold;
-}
+/* First Section */
 
 .first-Sec-Div{
     display: flex;
     justify-content: space-evenly;
+    padding: 15px;
+    align-items: center;
+}
+
+.fs-up,.fs-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.fs-up-left{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+.logo-name{
+    margin-left: 15px;
+}
+
+.fs-up-left,.fs-bottom-left{
+    margin-left: 175px;
+}
+
+.fs-up-right,.fs-bottom-right{
+    margin-right: 175px;
+}
+
+.fs-bottom-left{
+    width: 500px;
+}
+
+.fs-btn{
+    background-color: #3882f6;
+    border: none;
+    padding: 5px;
+    width: 110px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Second Section */
+
+.ss-h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+}
+
+.ss-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 175px;
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+
+.logo-img{
+    border: #3882f6 solid 2px;
+    width: 250px;
+    height: 150px;
+}
+
+.logo-p{
+    text-align: center;
+    color: #1f2937;
+    padding: 8px;
 }
